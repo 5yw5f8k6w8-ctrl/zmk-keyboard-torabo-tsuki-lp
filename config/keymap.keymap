@@ -40,11 +40,11 @@
 
         layer_2 {
             bindings = <
-&trans            &trans     &trans     &trans     &trans     &trans                      &trans          &trans          &trans           &trans  &trans  &trans
-&trans            &kp F1     &kp F2     &kp F3     &kp F4     &kp F5                      &none           &kp UP_ARROW    &none            &none   &none   &trans
-&trans            &kp F6     &kp F7     &kp F8     &kp F9     &kp F10  &trans  &trans     &kp LEFT_ARROW  &none           &kp RIGHT_ARROW  &none   &none   &trans
-&kp LEFT_SHIFT    &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &none    &trans  &trans     &none           &kp DOWN_ARROW  &none            &none   &none   &trans
-&kt LEFT_CONTROL  &trans     &trans     &trans     &trans     &trans   &trans  &mkp LCLK  &mkp RCLK       &none           &trans           &trans  &trans  &trans
+&trans            &trans     &trans     &trans     &trans     &trans                      &trans          &trans          &trans           &trans  &trans      &trans
+&trans            &kp F1     &kp F2     &kp F3     &kp F4     &kp F5                      &none           &kp UP_ARROW    &none            &none   &bt BT_CLR  &trans
+&trans            &kp F6     &kp F7     &kp F8     &kp F9     &kp F10  &trans  &trans     &kp LEFT_ARROW  &none           &kp RIGHT_ARROW  &none   &none       &trans
+&kp LEFT_SHIFT    &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &none    &trans  &trans     &none           &kp DOWN_ARROW  &none            &none   &none       &trans
+&kt LEFT_CONTROL  &trans     &trans     &trans     &trans     &trans   &trans  &mkp LCLK  &mkp RCLK       &none           &trans           &trans  &trans      &trans
             >;
         };
 
