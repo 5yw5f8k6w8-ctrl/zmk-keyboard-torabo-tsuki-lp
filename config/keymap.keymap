@@ -20,11 +20,11 @@
 
         layer_0 {
             bindings = <
-&none      &none  &none  &none  &none         &none                                                 &none             &none  &none      &none          &none                 &none
-&kp ESC    &kp Q  &kp W  &kp E  &kp R         &kp T                                                 &kp Y             &kp U  &kp I      &kp O          &kp P                 &kp BSPC
-&kp TAB    &kp A  &kp S  &kp D  &kp F         &kp G        &none               &none                &kp H             &kp J  &kp K      &kp L          &kp SEMI              &kp SQT
-&kp LSHFT  &kp Z  &kp X  &kp C  &kp V         &kp B        &lt 2 LEFT_BRACKET  &lt 2 RIGHT_BRACKET  &kp N             &kp M  &kp COMMA  &kp DOT        &mt RIGHT_SHIFT FSLH  &kp EQUAL
-&kp LCTRL  &kp A  &kp A  &kp A  &kp LEFT_WIN  &lt 1 LANG2  &kp SPACE           &kp RETURN           &lt 1 LANGUAGE_1  &none  &none      &kp RIGHT_ALT  &kp A                 &kp A
+&none             &none  &none  &none  &none         &none                                                 &none             &none  &none      &none          &none                 &none
+&kp ESC           &kp Q  &kp W  &kp E  &kp R         &kp T                                                 &kp Y             &kp U  &kp I      &kp O          &kp P                 &kp BSPC
+&kp LEFT_SHIFT    &kp A  &kp S  &kp D  &kp F         &kp G        &none               &none                &kp H             &kp J  &kp K      &kp L          &kp SEMI              &kp SQT
+&kp LEFT_CONTROL  &kp Z  &kp X  &kp C  &kp V         &kp B        &lt 2 LEFT_BRACKET  &lt 2 RIGHT_BRACKET  &kp N             &kp M  &kp COMMA  &kp DOT        &mt RIGHT_SHIFT FSLH  &kp EQUAL
+&kp LCTRL         &kp A  &kp A  &kp A  &kp LEFT_WIN  &lt 1 LANG2  &kp SPACE           &kp RETURN           &lt 1 LANGUAGE_1  &none  &none      &kp RIGHT_ALT  &kp A                 &kp A
             >;
         };
 
@@ -40,11 +40,11 @@
 
         layer_2 {
             bindings = <
-&trans            &trans     &trans     &trans     &trans     &trans                      &trans          &trans          &trans           &trans  &trans      &trans
-&trans            &kp F1     &kp F2     &kp F3     &kp F4     &kp F5                      &none           &kp UP_ARROW    &none            &none   &bt BT_CLR  &trans
-&trans            &kp F6     &kp F7     &kp F8     &kp F9     &kp F10  &trans  &trans     &kp LEFT_ARROW  &none           &kp RIGHT_ARROW  &none   &none       &trans
-&kp LEFT_SHIFT    &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &none    &trans  &trans     &none           &kp DOWN_ARROW  &none            &none   &none       &trans
-&kt LEFT_CONTROL  &trans     &trans     &trans     &trans     &trans   &trans  &mkp LCLK  &mkp RCLK       &none           &trans           &trans  &trans      &trans
+&trans            &trans     &trans     &trans     &trans     &trans                   &trans          &trans          &trans           &trans  &trans      &trans
+&trans            &kp F1     &kp F2     &kp F3     &kp F4     &kp F5                   &none           &kp UP_ARROW    &none            &none   &bt BT_CLR  &trans
+&trans            &kp F6     &kp F7     &kp F8     &kp F9     &kp F10  &trans  &trans  &kp LEFT_ARROW  &none           &kp RIGHT_ARROW  &none   &none       &trans
+&kp LEFT_SHIFT    &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &none    &trans  &trans  &none           &kp DOWN_ARROW  &none            &none   &none       &trans
+&kt LEFT_CONTROL  &trans     &trans     &trans     &trans     &trans   &trans  &none   &none           &none           &trans           &trans  &trans      &trans
             >;
         };
 
