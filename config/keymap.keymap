@@ -15,6 +15,15 @@
         };
     };
 
+    macros {
+        LIN: LIN {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N7 &kp NUMBER_2 &kp N0 &kp N9 &kp NUMBER_2 &kp NUMBER_4>;
+            label = "LIN";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
