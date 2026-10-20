@@ -19,7 +19,7 @@
         LIN: LIN {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp N7 &kp NUMBER_2 &kp N0 &kp N9 &kp NUMBER_2 &kp NUMBER_4>;
+            bindings = <&kp P &kp A &kp N &kp G &kp E &kp A>;
             label = "LIN";
         };
     };
